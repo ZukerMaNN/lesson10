@@ -139,7 +139,7 @@ a {
 }
 
 .experience {
-  padding-top: 105px;
+  padding-top: 100px;
   padding-bottom: 92px;
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -149,18 +149,18 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: var(--gap);
+  gap: var(--gap-lg);
 }
 
 .experience-item {
   display: flex;
-  gap: var(--gap-lg);
+  gap: var(--gap);
 }
 
 .experience-item__number {
-  font-size: 1.312em;
+  font-size: 1.3125rem;
   font-weight: 500;
-  line-height: 1.3em;
+  line-height: 1.4;
 }
 
 .experience-item__image {
